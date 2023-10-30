@@ -4,12 +4,5 @@
 
 .column {
   flex: 33.33%;
-  flex.wrap: wrap;
-  padding: 40px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  padding: 5px;
 }
