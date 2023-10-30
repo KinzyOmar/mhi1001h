@@ -96,18 +96,11 @@ Enjoying cosy hobbies is great for your mental health. Denmark has it all figure
 
 
 
-<h1>About Section <script type = "text/javascript">
-
-/***********************************************
-* Display time of last visit script- by JavaScriptKit.com
-* This notice MUST stay intact for use
-* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and more
-***********************************************/
-
+<h3><script type = "text/javascript">
 var days = 730; // days until cookie expires = 2 years.
 var lastvisit=new Object();
 var firstvisitmsg="This is your first visit to this page. Welcome!"; 
-lastvisit.subsequentvisitmsg="Welcome back visitor! Your last visit was on <b>[displaydate]</b>";
+lastvisit.subsequentvisitmsg="Welcome back! Your last visit was on <b>[displaydate]</b>";
 
 lastvisit.getCookie=function(Name){ 
 var re=new RegExp(Name+"=[^;]+", "i"); 
@@ -156,17 +149,14 @@ if (secs < 10) {secs = "0" + secs}
 var dispDate = dy + ", " + mn + " " + dd + ", " + yy + " " + hh + ":" + mins + ":" + secs + " " + ampm
 document.write(lastvisit.subsequentvisitmsg.replace("\[displaydate\]", dispDate))
 }
-
 lastvisit.setCookie("visitc", wh, days);
-
 }
-
 lastvisit.showmessage();
 
-</script> 
-	</h1>
-	    <p>
-	Welcome to my webpage, all things cosy and fall!<br/>
-	   </p>
+
+		
+</script>
+		</h3>
+
 	</body>
 </html>
